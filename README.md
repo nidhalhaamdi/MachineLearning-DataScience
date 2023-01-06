@@ -211,35 +211,41 @@
     - [Making Predictions On Our Images](#making-predictions-on-our-images)
     </details>
 
+**[⬆ back to top](#table-of-contents)**
+
 ## **1: Machine Learning**
 
 ### What Is Machine Learning?
 
-- Machines can perform tasks really fast
-- We give them instructions to do tasks and they do it for us
-- Computers used to mean people who do tasks that compute
-- Problem: How to get to Danielle's house using Google maps?
-- Imagine we had ten different routes to Danielle's house
-  - Option 1: I measure each route one by one
+- Machines can perform tasks really fast.
+- We give them instructions to do tasks and they do it for us.
+
+- Problem 1: How to get to X's house using Google maps?
+- Imagine we had ten different routes to X's house,
+  - Option 1: I measure each route one by one.
   - Option 2: I program and tell the computer to calculate these 10 routes and find the shortest one.
-- Problem: Somebody left a review on Amazon. Is this person angry?
-- How can I describe to a computer what angry means?
-- We let machines take care of the easier part of which things we can describe
-- Things that are hard to just give instructions to, we let human do it
-- The goal of machine learning is to make machines act more and more like humans because the smarter they
+
+- Problem 2: Somebody left a review on Amazon. Is this person angry?
+  - How can I describe to a computer what angry means?
+- Things that are hard to just give instructions to, we let human do it.
+- The goal of machine learning is to make machines act more and more like humans because the smarter they get the more they help us humains accomplish our goals.
+
+**[⬆ back to top](#table-of-contents)**
 
 ### [AI/Machine Learning/Data Science](https://towardsdatascience.com/a-beginners-guide-to-data-science-55edd0288973)
 
-- AI: machine that acts like human
-- Narrow AI: machine that acts like human at a specific task
-- General AI: machine that acts like human with multiple abilities
-- Machine Learning: a subset of AI
-- Machine Learning: an approach to achieve artificial intelligence through systems that can find patterns in a set of data
-- Machine Learning: the science of getting computers to act without being explicitly programmed
-- Deep Learning: a subset of Machine Learning
-- Deep Learning: one of the techniques for implementing machine learning
-- Data Science: analyzing data and then doing something with a business goal
+- AI: machine that acts like human.
+- Narrow AI: machine that acts like human at a specific task.
+- General AI: machine that acts like human with multiple abilities.
+- Machine Learning: a subset of AI.
+- Machine Learning: an approach to achieve artificial intelligence through systems that can find patterns in a set of data.
+- Machine Learning: the science of getting computers to act without being explicitly programmed.
+- Deep Learning: a subset of Machine Learning.
+- Deep Learning: one of the techniques for implementing machine learning.
+- Data Science: analyzing data and then doing something with a business goal.
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
+
+**[⬆ back to top](#table-of-contents)**
 
 ### How Did We Get Here?
 
@@ -264,6 +270,8 @@
   - Experiments: What have we tried / What else can we try?
 - [Machine Learning Playground](https://ml-playground.com)
 
+**[⬆ back to top](#table-of-contents)**
+
 ### [Types of Machine Learning](http://vas3k.com/blog/machine_learning/)
 
 - Predict results based on incoming data
@@ -277,6 +285,8 @@
 - Reinforcement: teach machines through rewards and punishment
   - skill acquisition
   - real time learning
+
+**[⬆ back to top](#table-of-contents)**
 
 ### What Is Machine Learning? Round 2
 
@@ -301,10 +311,10 @@
 ### Introducing Our Framework
 
 - Focus on practical solutions and writing machine learning code
-- Steps to learn machine learning
-  - Create a framework
-  - Match to data science and machine learning tools
-  - Learn by doing
+- Steps to learn machine learning:
+  - Create a framework.
+  - Match to data science and machine learning tools.
+  - Learn by doing.
 
 ### [6 Step Machine Learning Framework](https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/)
 
@@ -327,7 +337,7 @@
 ### Types of Machine Learning Problems
 
 - When shouldn't you use machine learning?
-  - When a simple hand-coded instruction based system will work
+  - When a simple hand-coded instruction based system will work.
 - Main types of machine learning
   - Supervised Learning
   - Unsupervised Learning
@@ -369,10 +379,10 @@
     - News headlines are being updated constantly you'll want to see how they change stocks
 - Start on static data and then if your data analysis and machine learning efforts prove to show some insights you'll move towards streaming data when you go to deployment or in production
 - A data science workflow
-  - open csv file in jupyter notebook (a tool to build machine learning project)
-  - perform data analysis with panda (a python library for data analysis)
+  - open csv file in Jupyter Notebook (a tool to build machine learning project)
+  - perform data analysis with Pandas (a python library for data analysis)
   - make visualizations such as graphs and comparing different data points with Matplotlib
-  - build machine learning model on the data using scikit learn to predict using these patterns
+  - build machine learning model on the data using Scikit-Learn to predict using these patterns
 
 ### Types of Evaluation: What defines success for us?
 
@@ -591,8 +601,6 @@
 **[⬆ back to top](#table-of-contents)**
 
 ## **5: NumPy**
-
-### Section Overview
 
 - Why NumPy?
   - performance advantage as it is written in C under the hood
